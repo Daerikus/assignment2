@@ -14,12 +14,6 @@ type status struct {
 	Version  string        `json:"version"`
 }
 
-//type issue struct {
-//	Users  []userIssue  `json:"users"`
-//	Labels []labelIssue `json:"labels"`
-//	Auth   bool         `json:"auth"`
-//}
-
 type userIssue struct {
 	Users []user `json:"users"`
 	Auth  bool   `json:"auth"`
